@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".My_message_window">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/img_myavatar"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            app:border_color="#FF000000"
+            app:border_width="2dp"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:id="@+id/edt_tenhienthi"
+            android:layout_width="200sp"
+            android:text=""
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="#3C3A3A"
+            android:layout_height="match_parent"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="80sp"
+            android:id="@+id/btn_dangxuat"
+            android:layout_width="41dp"
+            android:layout_height="41dp"
+            app:border_color="#FF000000"
+            android:src="@drawable/logout2"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/lsv_user"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

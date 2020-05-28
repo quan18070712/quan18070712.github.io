@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="txtuser">UserName</string>
+    <string name="txtpass">PassWord</string>
+    <string name="btndangki">Đăng kí</string>
+    <string name="btndangnhap">Đăng nhập</string>
+</resources>
